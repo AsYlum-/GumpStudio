@@ -10,6 +10,10 @@ If you want to help send me pull request.
 
 Gump Studio was designed and written by Bradley Uffner in 2004. It makes extensive use of a modified version of the UOSDK written by Krrios, available at www.RunUO.com. Artwork was created by Melanius, and several more ideas were contributed by the RunUO community.  Special thanks go to DarkStorm of the Wolfpack emulator for helping me to decode unifont.mul, allowing me to displaying UO fonts correctly.
 
+## Goals
+
+Finish the cleanup and make it working with recent UO clients.
+
 ## State of the code
 
 Code is almost readable and can be compiled.
