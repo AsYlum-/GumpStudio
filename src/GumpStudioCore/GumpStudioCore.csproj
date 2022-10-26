@@ -10,6 +10,7 @@
 		<AssemblyVersion>1.8.3.0</AssemblyVersion>
 		<FileVersion>1.8.3.0</FileVersion>
 		<OutputPath>bin\$(Configuration)\</OutputPath>
+		<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
 	</PropertyGroup>
 	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
 		<DebugType>full</DebugType>
@@ -110,5 +111,6 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Reference Include="System.Windows.Forms" />
+		<PackageReference Include="System.Resources.Extensions" Version="4.6.0" />
 	</ItemGroup>
 </Project>
